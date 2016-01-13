@@ -1,0 +1,15 @@
+<%= form_for @basic, url: {action: "create"} do |f| %>
+  <%= f.text_field :full_name %>
+  <%= f.text_field :phone %>
+  <%= f.text_field :twitter %>
+  <%= f.text_field :relevant %>
+  <%= f.text_field :email %>
+  <%= f.text_field :linkedin %>
+  <%= f.text_field :skype %>
+  
+  
+  <%= f.submit "Create" %>
+<% end %>
+
+
+
